@@ -1,5 +1,7 @@
 # ALMA AI
 
+AI for long-term psychological compatibility
+
 Know before you attach.
 
 AI for long-term relationship compatibility
@@ -16,13 +18,24 @@ ALMA AI is designed to make it visible earlier.
 
 Author: Maksim Nagaev
 
-ALMA AI is an AI system designed to help people understand long-term psychological compatibility before emotional attachment forms.
+ALMA AI is a conceptual framework exploring how artificial intelligence can support long-term psychological compatibility between individuals.
+
+Instead of optimizing attraction or engagement, the focus is on understanding deeper alignment before emotional attachment forms.
 
 Instead of optimizing attraction or engagement, the system focuses on deeper alignment — including values, emotional patterns, attachment tendencies, and long-term lifestyle structure.
 
 The goal is not to decide for users, but to reveal hidden compatibility dynamics, potential tensions, and long-term risks.
 
 The system supports awareness — not decision-making.
+
+---
+
+## What this explores
+
+- Psychological compatibility beyond attraction
+- Attachment dynamics and emotional patterns
+- AI-supported understanding of relational alignment
+- Early detection of potential incompatibilities
 
 ---
 
@@ -111,7 +124,7 @@ Conceptual architecture illustrating how structured assessment and adaptive dial
 
 Early-stage concept.
 
-The system is currently being explored and refined.
+Currently being explored and refined.
 
 ---
 
@@ -131,6 +144,7 @@ Medium articles:
 
 - [Ethical AI for Long-Term Partner Compatibility](https://medium.com/@EthicalAIforLongTermPartnerCom/...)
 - [Dating Apps Use AI — But Still Fail at Matching People](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-use-ai-but-still-fail-at-matching-people-a32868fd7e35)
+- [Dating Apps Optimize the Wrong Thing] (https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-optimize-the-wrong-thing-95700d3223c0)
 
 ---
 
