@@ -144,7 +144,7 @@ Medium articles:
 
 - [Ethical AI for Long-Term Partner Compatibility](https://medium.com/@EthicalAIforLongTermPartnerCom/...)
 - [Dating Apps Use AI — But Still Fail at Matching People](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-use-ai-but-still-fail-at-matching-people-a32868fd7e35)
-- [Dating Apps Optimize the Wrong Thing] (https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-optimize-the-wrong-thing-95700d3223c0)
+- [Dating Apps Optimize the Wrong Thing](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-optimize-the-wrong-thing-95700d3223c0)
 
 ---
 
