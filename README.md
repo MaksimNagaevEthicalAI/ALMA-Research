@@ -36,7 +36,7 @@ Independent Research Initiative
 - Psychological compatibility beyond attraction
 - Attachment dynamics and emotional patterns
 - AI-supported understanding of relational alignment
-- Early detection of potential incompatibilities
+- Exploration of long-term relational dynamics
 
 ---
 
@@ -46,7 +46,7 @@ Most modern relationship technologies optimize for engagement, not compatibility
 
 This project explores a different approach:
 
-Using AI to identify deep psychological alignment, reveal hidden incompatibilities, and support better relationship decisions before emotional attachment forms.
+Using AI to support deeper relational understanding, psychological reflection, and compatibility awareness before emotional attachment forms.
 
 ---
 
@@ -62,10 +62,10 @@ The system combines structured psychological assessment with adaptive AI interac
 Initial baseline based on values, emotional patterns, expectations, and lifestyle
 
 **Adaptive AI Dialogue**
-Dynamic interaction designed to:
-- uncover inconsistencies  
-- surface implicit beliefs  
-- explore emotional reactions  
+Dynamic interaction designed to support:
+- reflective clarification
+- exploration of relational expectations
+- understanding of emotional communication patterns
 
 **Psychological Pattern Analysis**
 Identification of stable behavioral and relational patterns
@@ -73,9 +73,9 @@ Identification of stable behavioral and relational patterns
 **Compatibility Mapping**
 Comparison of two profiles across multiple dimensions:
 - alignment zones  
-- tension zones  
-- risk zones  
-
+- areas of alignment
+- areas of difference
+- potential relational challenges
 ---
 
 ## System Flow
@@ -88,7 +88,7 @@ User Input → Psychological Profiling → Adaptive Dialogue → Refined Profile
 
 - Focus on long-term compatibility, not attraction  
 - Adaptive dialogue instead of static questionnaires  
-- Detection of inconsistencies and hidden patterns  
+- Reflective dialogue beyond static questionnaires 
 - Multidimensional psychological modeling  
 - No gamification, no engagement optimization  
 
@@ -100,7 +100,7 @@ Most relationship platforms are designed to maximize attention and interaction.
 
 This creates a fundamental misalignment: they optimize for engagement, not long-term relational stability.
 
-ALMA AI explores whether AI can instead support clarity, compatibility, and healthier relationship decisions.
+ALMA AI explores whether AI can support relational clarity, compatibility awareness, and more informed long-term decisions.
 
 ---
 
