@@ -55,11 +55,11 @@ Using AI to support deeper relational understanding, psychological reflection, a
 The system combines structured psychological assessment with adaptive AI interaction:
 
 **User Input**
-- Public profile (visible to others)
-- Private psychological questionnaire (hidden)
+- Public profile information
+- Private structured questionnaire
 
 **Psychological Profiling**
-Initial baseline based on values, emotional patterns, expectations, and lifestyle
+Initial structured baseline based on values, emotional patterns, expectations, and lifestyle dynamics.
 
 **Adaptive AI Dialogue**
 Dynamic interaction designed to support:
@@ -68,14 +68,15 @@ Dynamic interaction designed to support:
 - understanding of emotional communication patterns
 
 **Psychological Pattern Analysis**
-Identification of stable behavioral and relational patterns
+Exploration of recurring behavioral and relational tendencies across interaction patterns.
 
 **Compatibility Mapping**
 Comparison of two profiles across multiple dimensions:
-- alignment zones  
 - areas of alignment
 - areas of difference
 - potential relational challenges
+- communication dynamics
+  
 ---
 
 ## System Flow
@@ -86,11 +87,11 @@ User Input → Psychological Profiling → Adaptive Dialogue → Refined Profile
 
 ## Key Differentiators
 
-- Focus on long-term compatibility, not attraction  
-- Adaptive dialogue instead of static questionnaires  
-- Reflective dialogue beyond static questionnaires 
-- Multidimensional psychological modeling  
-- No gamification, no engagement optimization  
+- Focus on long-term compatibility, not attraction
+- Adaptive dialogue beyond static questionnaires
+- Multidimensional psychological modeling
+- Reflective compatibility exploration
+- No gamification or engagement optimization
 
 ---
 
@@ -147,6 +148,8 @@ Medium articles:
 - [Dating Apps Use AI — But Still Fail at Matching People](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-use-ai-but-still-fail-at-matching-people-a32868fd7e35)
 - [Dating Apps Optimize the Wrong Thing](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-optimize-the-wrong-thing-95700d3223c0)
 - [Attachment Is Why We Choose the Wrong Partners](https://medium.com/@EthicalAIforLongTermPartnerCom/attachment-is-why-we-choose-the-wrong-partners-adf3db6f8d08)
+
+More writing: https://medium.com/@EthicalAIforLongTermPartnerCom
 ---
 
 ## Author
@@ -161,5 +164,4 @@ https://www.linkedin.com/in/maksim-nagaev-9a03013a8/
 
 Open to discussion and collaboration.
 
-#ALMA-AI
-#ALMAAI
+
