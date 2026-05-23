@@ -1,167 +1,90 @@
 # ALMA AI
 
-### Research Initiative on Psychological Compatibility & Relationship Dynamics
+## Ethical AI Research Initiative on Long-Term Psychological Compatibility
 
-AI-supported exploration of long-term relational compatibility before emotional attachment forms.
+ALMA AI is an independent conceptual research initiative exploring whether artificial intelligence can help people better understand long-term psychological compatibility before deep emotional attachment forms.
+
+The project focuses on ethical, reflective, and human-centered approaches to relationship compatibility rather than engagement optimization or behavioral manipulation.
 
 ---
 
-**ALMA AI** is an independent conceptual research initiative exploring how artificial intelligence may help people better understand long-term psychological compatibility.
+## Core Direction
 
-The project focuses on:
-- psychological alignment
+ALMA AI explores:
+
+- long-term psychological compatibility
+- reflective self-understanding
 - attachment dynamics
 - emotional patterns
 - relational stability
-- compatibility modeling
+- ethical AI interaction models
 
-Rather than optimizing engagement or attraction, ALMA AI explores whether AI can support deeper relational understanding and more informed long-term partner decisions.
-
----
-
-## Core Principle
-
-Technology should support awareness — not manipulate emotional behavior.
+The system is designed to support clarity and informed decision-making rather than maximizing emotional dependency or user engagement.
 
 ---
 
-Author: Maksim Nagaev
+## Conceptual Principles
 
-Independent Research Initiative
+ALMA AI is based on several core principles:
 
----
-
-## What this explores
-
-- Psychological compatibility beyond attraction
-- Attachment dynamics and emotional patterns
-- AI-supported understanding of relational alignment
-- Exploration of long-term relational dynamics
+- AI should support reflection, not addiction
+- compatibility awareness is more valuable than attraction optimization
+- emotional attachment should not be manipulated
+- ethical boundaries must be explicit and verifiable
+- long-term relational wellbeing matters more than engagement metrics
 
 ---
 
-## Core Idea
+## Operational Model
 
-Most modern relationship technologies optimize for engagement, not compatibility.
+The conceptual operational architecture currently includes:
 
-This project explores a different approach:
+1. Individual psychological analysis  
+2. Reflective dialogue-based profiling  
+3. Compatibility awareness modeling  
+4. Ethical compatibility recommendation logic  
+5. Personal growth and self-reflection feedback
 
-Using AI to support deeper relational understanding, psychological reflection, and compatibility awareness before emotional attachment forms.
-
----
-
-## System Overview
-
-The system combines structured psychological assessment with adaptive AI interaction:
-
-**User Input**
-- Public profile information
-- Private structured questionnaire
-
-**Psychological Profiling**
-Initial structured baseline based on values, emotional patterns, expectations, and lifestyle dynamics.
-
-**Adaptive AI Dialogue**
-Dynamic interaction designed to support:
-- reflective clarification
-- exploration of relational expectations
-- understanding of emotional communication patterns
-
-**Psychological Pattern Analysis**
-Exploration of recurring behavioral and relational tendencies across interaction patterns.
-
-**Compatibility Mapping**
-Comparison of two profiles across multiple dimensions:
-- areas of alignment
-- areas of difference
-- potential relational challenges
-- communication dynamics
-  
----
-
-## System Flow
-
-User Input → Psychological Profiling → Adaptive Dialogue → Refined Profile → Compatibility Mapping
+The system does not publicly expose incompatibility scoring logic in ways that could encourage manipulation or performative behavioral adaptation.
 
 ---
 
-## Key Differentiators
+## Repository Documents
 
-- Focus on long-term compatibility, not attraction
-- Adaptive dialogue beyond static questionnaires
-- Multidimensional psychological modeling
-- Reflective compatibility exploration
-- No gamification or engagement optimization
+### Executive Brief
+High-level overview of the ALMA AI initiative.
 
----
+### Operational Architecture
+Structured operational framework and ethical system architecture.
 
-## Why This Matters
-
-Most relationship platforms are designed to maximize attention and interaction.
-
-This creates a fundamental misalignment: they optimize for engagement, not long-term relational stability.
-
-ALMA AI explores whether AI can support relational clarity, compatibility awareness, and more informed long-term decisions.
+### Full Concept
+Expanded conceptual framework and long-term research direction.
 
 ---
 
-## Compatibility Model Diagram
+## Research Position
 
-AI Compatibility Model
+ALMA AI is not a dating application.
 
-Conceptual architecture illustrating how structured assessment and adaptive dialogue support compatibility insight.
-
----
-
-## Key Principles
-
-- AI should support human autonomy, not replace it  
-- Compatibility is multidimensional and dynamic  
-- Long-term stability matters more than short-term engagement  
-- Technology should clarify decisions, not manipulate emotions  
+It is a conceptual exploration of whether AI systems can support healthier long-term relational decision-making while preserving autonomy, reflection, and ethical transparency.
 
 ---
 
-## Status
+## Links
 
-Early-stage concept.
-
-Currently being explored and refined.
-
----
-
-## Concept Paper
-
-👉 Start here (simple overview):  
-https://www.notion.so/ALMA-AI-32a45b82b970803984cfd20456a8f252
-
-👉 Full conceptual framework:  
-https://button-alyssum-638.notion.site/Ethical-AI-for-Long-Term-Partner-Compatibility-31745b82b9708019988ecb95b538ed3d?pvs=143
+### Notion
+(https://button-alyssum-638.notion.site/ALMA-AI-Research-Initiative-on-Psychological-Compatibility-Relationship-Dynamics-Full-Concept-31745b82b9708019988ecb95b538ed3d?pvs=74)
 
 ---
 
-## Related Writing
+## Contact
 
-Medium articles:
+alma.ai.research@gmail.com
 
-- [Ethical AI for Long-Term Partner Compatibility](https://medium.com/@EthicalAIforLongTermPartnerCom/...)
-- [Dating Apps Use AI — But Still Fail at Matching People](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-use-ai-but-still-fail-at-matching-people-a32868fd7e35)
-- [Dating Apps Optimize the Wrong Thing](https://medium.com/@EthicalAIforLongTermPartnerCom/dating-apps-optimize-the-wrong-thing-95700d3223c0)
-- [Attachment Is Why We Choose the Wrong Partners](https://medium.com/@EthicalAIforLongTermPartnerCom/attachment-is-why-we-choose-the-wrong-partners-adf3db6f8d08)
-
-More writing: https://medium.com/@EthicalAIforLongTermPartnerCom
 ---
 
 ## Author
 
-Maksim Nagaev
+Founded and developed by Maksim Nagaev.
 
-LinkedIn:  
-https://www.linkedin.com/in/maksim-nagaev-9a03013a8/
-
-
----
-
-Open to discussion and collaboration.
-
-
+Independent ethical AI research initiative.
