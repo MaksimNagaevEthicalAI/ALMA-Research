@@ -60,6 +60,9 @@ Structured operational framework and ethical system architecture.
 ### Full Concept
 Expanded conceptual framework and long-term research direction.
 
+### Ethical Principles
+- Ethical Principles v1
+
 ---
 
 ## Research Position
