@@ -73,6 +73,38 @@ It is a conceptual exploration of whether AI systems can support healthier long-
 
 ---
 
+## Why Existing Relationship AI Systems Are Fundamentally Misaligned
+
+Most modern relationship platforms optimize for:
+- engagement
+- retention
+- emotional stimulation
+- addictive interaction loops
+- prolonged platform dependency
+
+Their economic model depends on keeping users emotionally engaged for as long as possible.
+
+As AI becomes more advanced, this creates a serious ethical risk:
+relationship systems may increasingly learn to maximize emotional attachment rather than long-term psychological wellbeing.
+
+ALMA AI explores a fundamentally different direction.
+
+Instead of optimizing for engagement, the concept focuses on:
+- long-term compatibility
+- emotional stability
+- reflective self-understanding
+- healthy attachment dynamics
+- reduction of emotionally destructive relationship patterns
+
+The goal is not to maximize emotional intensity.
+
+The goal is to help people better understand relational compatibility before deep emotional dependency forms.
+
+This creates a different ethical architecture for relationship-oriented AI systems:
+AI designed to support clarity and informed decisions rather than emotional manipulation or behavioral addiction.
+
+---
+
 ## Links
 
 ### Notion
