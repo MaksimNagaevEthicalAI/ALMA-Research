@@ -160,10 +160,31 @@ AI designed to support clarity and informed decisions rather than emotional mani
 
 ---
 
-## Links
+## Research Documents
 
-### Notion
-(https://button-alyssum-638.notion.site/ALMA-AI-32a45b82b970803984cfd20456a8f252)
+### Main Research Hub
+ALMA AI  
+https://button-alyssum-638.notion.site/ALMA-AI-31745b82b97080ac995df6d59487d0c
+
+### Research Initiative
+ALMA AI — Research Initiative on Psychological Compatibility & Relationship Dynamics  
+https://button-alyssum-638.notion.site/ALMA-AI-Research-Initiative-on-Psychological-Compatibility-Relationship-Dynamics-Full-Concept-31745b82b9708019988ecb95b538ed3d
+
+### Architecture v2
+ALMA AI — Architecture v2  
+https://button-alyssum-638.notion.site/ALMA-AI-Architecture-v2-32045b82b9708030b96cd1d8f3c84f5c
+
+### Operational Architecture v1
+ALMA AI — Operational Architecture v1  
+https://button-alyssum-638.notion.site/ALMA-AI-Operational-Architecture-v1-31745b82b97080b6973ad7c0d9e5e3f8
+
+### Ethical Principles
+ALMA AI — Ethical Principles v1  
+https://button-alyssum-638.notion.site/ALMA-AI-Ethical-Principles-v1-31b45b82b97080b2a89de6dfec7b4892
+
+### Executive Brief
+ALMA AI — Executive Brief  
+https://button-alyssum-638.notion.site/ALMA-AI-Executive-Brief-31b45b82b9708054b82cfb401a40fcd8
 
 ---
 
