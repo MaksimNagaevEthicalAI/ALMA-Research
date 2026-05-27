@@ -159,6 +159,9 @@ This creates a different ethical architecture for relationship-oriented AI syste
 AI designed to support clarity and informed decisions rather than emotional manipulation or behavioral addiction.
 
 ---
+# ALMA AI
+
+[https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Executive_Framework.png]
 
 ## Research Documents
 
@@ -185,6 +188,9 @@ ALMA AI — Ethical Principles v1
 ### Executive Brief
 ALMA AI — Executive Brief  
 https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Executive_Brief_v1_1.pdf
+
+### Full Architecture 
+(https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Full_Architecture.pdf)
 
 ---
 
