@@ -23,6 +23,41 @@ The system is designed to support clarity and informed decision-making rather th
 
 ---
 
+## Expanded Functional Architecture
+
+ALMA AI is envisioned not only as a compatibility analysis system, but as a broader ethical relationship support framework designed to help people navigate complex emotional and relational dynamics throughout different stages of life.
+
+Potential future modules may include:
+
+### Pre-Attachment Compatibility Analysis
+Deep psychological and emotional compatibility assessment before strong emotional attachment forms.
+
+### Relationship Dynamics Monitoring
+Long-term analysis of communication patterns, attachment shifts, emotional asymmetry, and recurring conflict dynamics inside existing relationships.
+
+### Post-Breakup Psychological Recovery Support
+Reflective AI-guided emotional processing designed to help individuals better understand relationship collapse, attachment pain, emotional dependency patterns, and long-term behavioral cycles after separation.
+
+### Family and Couple Reflection Support
+AI-assisted structured reflection tools intended to support healthier communication, emotional awareness, and conflict understanding inside long-term partnerships or marriages.
+
+### Emotional Pattern Recognition
+Identification of recurring emotional behaviors, attachment triggers, self-destructive relational patterns, and compatibility risks across multiple relationships over time.
+
+### Ethical Relational Decision Support
+Helping individuals approach major relational decisions with greater long-term psychological awareness rather than impulsive emotional reactivity.
+
+### Human-Centered AI Interaction Model
+ALMA AI is intentionally designed to avoid:
+- emotional dependency engineering
+- engagement maximization
+- addictive interaction loops
+- manipulative behavioral optimization
+
+The system is conceptually oriented toward clarity, autonomy, psychological insight, and healthier long-term relational outcomes.
+
+---
+
 ## Conceptual Principles
 
 ALMA AI is based on several core principles:
