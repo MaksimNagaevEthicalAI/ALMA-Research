@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALMA AI — Relational Intelligence Framework</title>
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZSzq-vx5vZHxItHgBpG3yPW_46D8uM-bMkQhIbtUsBAAm_LCv5wS-YdrsorVkIzv-am4UFQ5fFvlL9f8JrkdtXzTEM14Oh75K34i4Z76pnFW52A48IOHbvD-WimA37GP1vrrjOq3diKwdKXHybCruVzeRfNPS0oNe-xyOjZiGAhkuNATeN7E_EV2PYkUdoRRkn9Wr27In2XEakYnS_RHSfubpMQCMsZVM_RcvWVr4NVs8Rz6ecqlf1KQVJpU8or__siFkSeASAfTXjuB1fPssg" charset="UTF-8"></script><style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Merriweather:wght@700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: #f0f4f8;
+    color: #1a2a4a;
+    font-size: 11px;
+    line-height: 1.35;
+  }
+
+  .page {
+    width: 1400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 24px 24px 20px;
+    border: 1px solid #c8d4e8;
+  }
+
+  /* ── HEADER ── */
+  .main-title {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a2a4a;
+    margin-bottom: 2px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 12px;
+    color: #4a6080;
+    margin-bottom: 14px;
+    font-weight: 400;
+  }
+
+  /* ── LAYOUT: main 3 columns ── */
+  .layout {
+    display: grid;
+    grid-template-columns: 108px 1fr 170px;
+    gap: 8px;
+    align-items: start;
+  }
+
+  /* ── LEFT LAYER LABELS ── */
+  .layers { display: flex; flex-direction: column; gap: 4px; padding-top: 34px; }
+  .layer-badge {
+    display: flex; align-items: flex-start; gap: 6px;
+    padding: 7px 8px; border-radius: 6px; border: 1.5px solid;
+    min-height: 68px;
+  }
+  .layer-badge .num {
+    width: 20px; height: 20px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 11px; color: #fff; flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .layer-badge .ltxt { font-size: 10px; font-weight: 600; line-height: 1.3; }
+  .layer-badge .lsub { font-size: 9px; font-weight: 400; color: #5a7090; }
+
+  .l1 { border-color: #5b8dd9; background: #eef4ff; }
+  .l1 .num { background: #5b8dd9; }
+  .l2 { border-color: #6baed6; background: #eef8ff; }
+  .l2 .num { background: #6baed6; }
+  .l3 { border-color: #74c476; background: #f0fff0; }
+  .l3 .num { background: #74c476; }
+  .l4 { border-color: #fd8d3c; background: #fff7ee; }
+  .l4 .num { background: #fd8d3c; }
+  .l5 { border-color: #9e9ac8; background: #f5f3ff; }
+  .l5 .num { background: #9e9ac8; }
+  .l6 { border-color: #e6550d; background: #fff2ec; }
+  .l6 .num { background: #e6550d; }
+  .l7 { border-color: #636363; background: #f5f5f5; }
+  .l7 .num { background: #636363; }
+
+  /* ── CENTER COLUMN ── */
+  .center { display: flex; flex-direction: column; gap: 5px; }
+
+  /* section headers */
+  .sec-hdr {
+    background: #1a2a4a; color: #fff;
+    text-align: center; font-weight: 700; font-size: 11.5px;
+    padding: 5px 10px; border-radius: 5px; letter-spacing: 0.3px;
+  }
+
+  /* WHO IT SERVES */
+  .who-grid {
+    display: grid; grid-template-columns: repeat(6,1fr); gap: 5px;
+    border: 1.5px solid #c0cfe8; border-radius: 6px; padding: 8px;
+    background: #f7faff;
+  }
+  .use-card {
+    text-align: center;
+  }
+  .use-card .icon { font-size: 18px; display: block; margin-bottom: 3px; }
+  .use-card .utitle { font-weight: 700; font-size: 10px; color: #1a3a6a; line-height: 1.2; margin-bottom: 2px; }
+  .use-card .udesc { font-size: 9px; color: #556070; }
+
+  /* arrow */
+  .arrow {
+    text-align: center; font-size: 18px; color: #5b8dd9; line-height: 1;
+    margin: -2px 0;
+  }
+
+  /* grid of cards */
+  .cards-grid {
+    display: grid; gap: 5px;
+  }
+  .g6 { grid-template-columns: repeat(6,1fr); }
+  .g7 { grid-template-columns: repeat(7,1fr); }
+  .g6c { grid-template-columns: repeat(6,1fr); }
+
+  .card {
+    border: 1.5px solid #d0daea; border-radius: 5px;
+    padding: 6px 7px; background: #fafcff;
+  }
+  .card .cico { font-size: 15px; margin-bottom: 3px; display: block; }
+  .card .ctitle { font-weight: 700; font-size: 10px; color: #1a3a6a; margin-bottom: 2px; line-height: 1.2; }
+  .card .cdesc { font-size: 9px; color: #4a6080; line-height: 1.3; }
+
+  /* analysis layer bg */
+  .analysis-wrap { background: #eef8ff; border: 1.5px solid #aacde8; border-radius: 6px; padding: 7px; }
+  .intel-wrap { background: #f0fff0; border: 1.5px solid #a0d4a0; border-radius: 6px; padding: 7px; }
+
+  /* application layer — colored cards */
+  .app-grid {
+    display: grid; grid-template-columns: repeat(6,1fr); gap: 5px;
+  }
+  .app-card {
+    border-radius: 6px; padding: 7px; border: 1.5px solid;
+  }
+  .app-card .atitle { font-weight: 700; font-size: 10px; margin-bottom: 4px; line-height: 1.2; }
+  .app-card ul { list-style: none; padding: 0; }
+  .app-card ul li { font-size: 8.5px; color: #3a4a60; line-height: 1.4; padding-left: 8px; position: relative; }
+  .app-card ul li::before { content: '•'; position: absolute; left: 0; color: #5b8dd9; }
+
+  .ac-purple { border-color: #9e9ac8; background: #f5f3ff; }
+  .ac-purple .atitle { color: #5a3a9a; }
+  .ac-blue { border-color: #5b8dd9; background: #eef4ff; }
+  .ac-blue .atitle { color: #1a4a8a; }
+  .ac-green { border-color: #74c476; background: #f0fff0; }
+  .ac-green .atitle { color: #1a6a1a; }
+  .ac-orange { border-color: #fd8d3c; background: #fff7ee; }
+  .ac-orange .atitle { color: #7a3a00; }
+  .ac-teal { border-color: #3ab0a0; background: #eafaf7; }
+  .ac-teal .atitle { color: #0a5a50; }
+  .ac-navy { border-color: #3a6aaa; background: #e8f0ff; }
+  .ac-navy .atitle { color: #1a3a7a; }
+
+  /* interaction layer */
+  .inter-wrap { background: #f5f3ff; border: 1.5px solid #b8b0e8; border-radius: 6px; padding: 7px; }
+
+  /* outcomes */
+  .outcome-wrap { background: #fff7ee; border: 1.5px solid #f0c080; border-radius: 6px; padding: 7px; }
+  .outcome-grid { display: grid; grid-template-columns: repeat(7,1fr); gap: 5px; }
+  .out-card { text-align: center; }
+  .out-card .oico { font-size: 16px; display: block; margin-bottom: 3px; }
+  .out-card .otitle { font-weight: 700; font-size: 9.5px; color: #1a3a6a; margin-bottom: 2px; }
+  .out-card .odesc { font-size: 8.5px; color: #556070; }
+
+  /* foundation */
+  .found-wrap { background: #f0f4f8; border: 1.5px solid #9aafcf; border-radius: 6px; padding: 7px; }
+  .found-grid { display: grid; grid-template-columns: repeat(7,1fr); gap: 5px; }
+  .found-card { text-align: center; }
+  .found-card .fco { font-size: 14px; display: block; margin-bottom: 2px; }
+  .found-card .ftitle { font-weight: 700; font-size: 9.5px; color: #1a3a6a; margin-bottom: 2px; }
+  .found-card .fdesc { font-size: 8.5px; color: #556070; }
+
+  /* ethical footer */
+  .ethics {
+    background: #1a2a4a; color: #d0e0f8;
+    border-radius: 5px; padding: 6px 12px;
+    display: flex; flex-wrap: wrap; gap: 10px 22px;
+    align-items: center;
+  }
+  .ethics .ehl { font-weight: 700; font-size: 9.5px; color: #fff; white-space: nowrap; }
+  .ethics .eitem { font-size: 9px; display: flex; align-items: center; gap: 4px; }
+  .ethics .eitem span { font-size: 12px; }
+
+  .note {
+    text-align: center; font-size: 9px; color: #8090a8;
+    margin-top: 6px; font-style: italic;
+  }
+
+  /* ── RIGHT COLUMN ── */
+  .right { display: flex; flex-direction: column; gap: 7px; }
+
+  .right-box {
+    border: 1.5px solid #c0cfe8; border-radius: 6px; padding: 8px;
+    background: #f7faff;
+  }
+  .right-box.integration { background: #eef4ff; border-color: #8ab0e8; }
+  .right-box.caps { background: #f0fff0; border-color: #90c890; }
+  .right-box.insights { background: #fff7ee; border-color: #f0a060; }
+  .right-box.data { background: #f5f3ff; border-color: #b0a0e0; }
+
+  .rbox-title {
+    font-weight: 700; font-size: 10.5px; color: #1a2a4a;
+    text-align: center; margin-bottom: 5px;
+    border-bottom: 1.5px solid #c0cfe8; padding-bottom: 4px;
+  }
+  .right-box.integration .rbox-title { border-color: #8ab0e8; }
+  .right-box.caps .rbox-title { border-color: #90c890; }
+  .right-box.insights .rbox-title { border-color: #f0a060; }
+  .right-box.data .rbox-title { border-color: #b0a0e0; }
+
+  .ritem { display: flex; gap: 5px; margin-bottom: 5px; align-items: flex-start; }
+  .ritem .rico { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+  .ritem .rtitle { font-weight: 700; font-size: 9.5px; color: #1a3a6a; }
+  .ritem .rdesc { font-size: 8.5px; color: #4a6080; }
+
+  .bullet-list { list-style: none; padding: 0; }
+  .bullet-list li {
+    font-size: 9px; color: #3a5070;
+    padding-left: 10px; position: relative; line-height: 1.45; margin-bottom: 1px;
+  }
+  .bullet-list li::before { content: '•'; position: absolute; left: 0; color: #5b8dd9; }
+
+  .data-item { margin-bottom: 5px; }
+  .data-item .dico { font-size: 14px; margin-right: 4px; }
+  .data-item .dtitle { font-weight: 700; font-size: 9.5px; color: #1a3a6a; }
+  .data-item .ddesc { font-size: 8.5px; color: #4a6080; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="main-title">ALMA AI — Relational Intelligence Framework</div>
+  <div class="sub-title">Conceptual Architecture v2 — Full Functional Overview</div>
+
+  <div class="layout">
+
+    <!-- LEFT: Layer labels -->
+    <div class="layers">
+      <div class="layer-badge l1">
+        <div class="num">1</div>
+        <div>
+          <div class="ltxt">INPUT LAYER</div>
+          <div class="lsub">Context &amp; Data Collection</div>
+        </div>
+      </div>
+      <div class="layer-badge l2">
+        <div class="num">2</div>
+        <div>
+          <div class="ltxt">ANALYSIS LAYER</div>
+          <div class="lsub">Psychological &amp; Relational Analysis</div>
+        </div>
+      </div>
+      <div class="layer-badge l3">
+        <div class="num">3</div>
+        <div>
+          <div class="ltxt">INTELLIGENCE LAYER</div>
+          <div class="lsub">Relational &amp; Emotional Understanding</div>
+        </div>
+      </div>
+      <div class="layer-badge l4">
+        <div class="num">4</div>
+        <div>
+          <div class="ltxt">APPLICATION LAYER</div>
+          <div class="lsub">Core Functional Areas</div>
+        </div>
+      </div>
+      <div class="layer-badge l5">
+        <div class="num">5</div>
+        <div>
+          <div class="ltxt">INTERACTION LAYER</div>
+          <div class="lsub">AI Support &amp; Guidance</div>
+        </div>
+      </div>
+      <div class="layer-badge l6">
+        <div class="num">6</div>
+        <div>
+          <div class="ltxt">OUTCOME LAYER</div>
+          <div class="lsub">Transformative Impact</div>
+        </div>
+      </div>
+      <div class="layer-badge l7">
+        <div class="num">7</div>
+        <div>
+          <div class="ltxt">FOUNDATION LAYER</div>
+          <div class="lsub">System Capabilities &amp; Infrastructure</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="center">
+
+      <!-- WHO IT SERVES -->
+      <div class="sec-hdr">WHO IT SERVES — CONTEXTS &amp; USE CASES</div>
+      <div class="who-grid">
+        <div class="use-card">
+          <span class="icon">👤</span>
+          <div class="utitle">Individual<br>(Self-Reflection)</div>
+          <div class="udesc">Understand yourself, make informed decisions, grow emotionally.</div>
+        </div>
+        <div class="use-card">
+          <span class="icon">💔</span>
+          <div class="utitle">Post-Breakup Support<br>(Personal Psychologist)</div>
+          <div class="udesc">Heal, reflect, understand what happened and why, rebuild self-awareness.</div>
+        </div>
+        <div class="use-card">
+          <span class="icon">👫</span>
+          <div class="utitle">Couples<br>(Relationship Support)</div>
+          <div class="udesc">Improve communication, resolve conflicts, strengthen connection.</div>
+        </div>
+        <div class="use-card">
+          <span class="icon">👨‍👩‍👧</span>
+          <div class="utitle">Family Therapy<br>(Systemic Support)</div>
+          <div class="udesc">Navigate family dynamics, roles, conflicts, and heal relations.</div>
+        </div>
+        <div class="use-card">
+          <span class="icon">🎯</span>
+          <div class="utitle">Long-Term Planning<br>(Relational Future)</div>
+          <div class="udesc">Explore compatibility, life alignment, values, and future scenarios.</div>
+        </div>
+        <div class="use-card">
+          <span class="icon">🛡</span>
+          <div class="utitle">Preventive Awareness<br>(Early Compatibility)</div>
+          <div class="udesc">Assess compatibility before deep attachment forms, reduce long-term risks.</div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- INPUT LAYER -->
+      <div class="cards-grid g7">
+        <div class="card">
+          <span class="cico">💭</span>
+          <div class="ctitle">User Reflection</div>
+          <div class="cdesc">Thoughts, feelings, experiences, goals, values, fears.</div>
+        </div>
+        <div class="card">
+          <span class="cico">📊</span>
+          <div class="ctitle">Behavioral Data (Optional)</div>
+          <div class="cdesc">Interaction patterns, communication style, routines, habits.</div>
+        </div>
+        <div class="card">
+          <span class="cico">📋</span>
+          <div class="ctitle">Relationship History</div>
+          <div class="cdesc">Past relationships, key events, attachment experiences.</div>
+        </div>
+        <div class="card">
+          <span class="cico">🌍</span>
+          <div class="ctitle">Current Context</div>
+          <div class="cdesc">Life situation, stressors, environmental factors, transitions.</div>
+        </div>
+        <div class="card">
+          <span class="cico">👩‍⚕️</span>
+          <div class="ctitle">Professional Inputs (Optional)</div>
+          <div class="cdesc">Therapist notes, assessments, external evaluations.</div>
+        </div>
+        <div class="card">
+          <span class="cico">📝</span>
+          <div class="ctitle">Questionnaires &amp; Tests</div>
+          <div class="cdesc">Psychological scales, compatibility tests, attachment styles.</div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- ANALYSIS LAYER -->
+      <div class="analysis-wrap">
+        <div class="sec-hdr" style="margin-bottom:6px;">Psychological &amp; Relational Analysis Engine</div>
+        <div class="cards-grid g7">
+          <div class="card">
+            <span class="cico">🧠</span>
+            <div class="ctitle">Personality &amp; Values</div>
+            <div class="cdesc">Core values, beliefs, worldview, identity, personality structure.</div>
+          </div>
+          <div class="card">
+            <span class="cico">❤️</span>
+            <div class="ctitle">Attachment &amp; Emotional Patterns</div>
+            <div class="cdesc">Attachment style, emotional regulation, abandonment fears.</div>
+          </div>
+          <div class="card">
+            <span class="cico">💬</span>
+            <div class="ctitle">Communication Dynamics</div>
+            <div class="cdesc">Communication style, conflict patterns, repair capacity.</div>
+          </div>
+          <div class="card">
+            <span class="cico">🔗</span>
+            <div class="ctitle">Compatibility Mapping</div>
+            <div class="cdesc">Values alignment, needs alignment, complementarity, mismatch areas.</div>
+          </div>
+          <div class="card">
+            <span class="cico">⚠️</span>
+            <div class="ctitle">Relational Risk &amp; Stability</div>
+            <div class="cdesc">Instability factors, red flags, power dynamics, long-term risk indicators.</div>
+          </div>
+          <div class="card">
+            <span class="cico">👨‍👩‍👦</span>
+            <div class="ctitle">Family &amp; Systemic Dynamics</div>
+            <div class="cdesc">Family roles, patterns, intergenerational dynamics, systemic stressors.</div>
+          </div>
+          <div class="card">
+            <span class="cico">🔍</span>
+            <div class="ctitle">Post-Breakup Analysis</div>
+            <div class="cdesc">What happened, why, emotional impact, lessons, growth areas.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- INTELLIGENCE LAYER -->
+      <div class="intel-wrap">
+        <div class="sec-hdr" style="margin-bottom:6px;">Relational Intelligence &amp; Modeling Layer</div>
+        <div class="cards-grid g6">
+          <div class="card">
+            <span class="cico">😊</span>
+            <div class="ctitle">Emotional State Understanding</div>
+            <div class="cdesc">Current emotional state, triggers, needs, vulnerabilities.</div>
+          </div>
+          <div class="card">
+            <span class="cico">📈</span>
+            <div class="ctitle">Dynamic Tracking</div>
+            <div class="cdesc">Relationship evolution, pattern changes, interaction cycles.</div>
+          </div>
+          <div class="card">
+            <span class="cico">⏳</span>
+            <div class="ctitle">Long-Term Outcome Modeling</div>
+            <div class="cdesc">Stability, satisfaction, compatibility trajectory, life alignment.</div>
+          </div>
+          <div class="card">
+            <span class="cico">🔮</span>
+            <div class="ctitle">Scenario Simulation</div>
+            <div class="cdesc">What-if modeling for decisions, transitions, life changes, crises.</div>
+          </div>
+          <div class="card">
+            <span class="cico">💡</span>
+            <div class="ctitle">Insight Synthesis</div>
+            <div class="cdesc">Key insights, patterns, opportunities, risks, recommendations.</div>
+          </div>
+          <div class="card">
+            <span class="cico">🌱</span>
+            <div class="ctitle">Growth &amp; Healing Pathways</div>
+            <div class="cdesc">Personal growth, healing steps, relationship improvement paths.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- APPLICATION LAYER -->
+      <div>
+        <div class="sec-hdr" style="margin-bottom:6px;">Core Functional Areas — Full Spectrum of Support</div>
+        <div class="app-grid">
+          <div class="app-card ac-purple">
+            <div class="atitle">👤 Personal Psychologist (After Breakup)</div>
+            <ul>
+              <li>Emotional support</li>
+              <li>Breakup analysis</li>
+              <li>Healing guidance</li>
+              <li>Self-worth rebuilding</li>
+              <li>Future preparation</li>
+              <li>Growth planning</li>
+            </ul>
+          </div>
+          <div class="app-card ac-blue">
+            <div class="atitle">👫 Relationship Support (Couples)</div>
+            <ul>
+              <li>Communication improvement</li>
+              <li>Conflict resolution</li>
+              <li>Intimacy strengthening</li>
+              <li>Trust rebuilding</li>
+              <li>Relationship optimization</li>
+              <li>Shared goal alignment</li>
+            </ul>
+          </div>
+          <div class="app-card ac-green">
+            <div class="atitle">👨‍👩‍👧 Family Therapy (Systemic)</div>
+            <ul>
+              <li>Family dynamics analysis</li>
+              <li>Role clarification</li>
+              <li>Conflict mediation</li>
+              <li>Generational healing</li>
+              <li>Boundaries setting</li>
+              <li>Family strengthening</li>
+            </ul>
+          </div>
+          <div class="app-card ac-orange">
+            <div class="atitle">🎯 Compatibility &amp; Match Insight</div>
+            <ul>
+              <li>Deep compatibility analysis</li>
+              <li>Values alignment</li>
+              <li>Lifestyle compatibility</li>
+              <li>Long-term potential</li>
+              <li>Risk assessment</li>
+              <li>Pre-commitment clarity</li>
+            </ul>
+          </div>
+          <div class="app-card ac-teal">
+            <div class="atitle">🛡 Preventive Awareness (Early Stage)</div>
+            <ul>
+              <li>Early compatibility check</li>
+              <li>Red flags identification</li>
+              <li>Attachment compatibility</li>
+              <li>Life goal alignment</li>
+              <li>Risk prevention</li>
+              <li>Informed decision making</li>
+            </ul>
+          </div>
+          <div class="app-card ac-navy">
+            <div class="atitle">📅 Long-Term Planning &amp; Life Alignment</div>
+            <ul>
+              <li>Life vision alignment</li>
+              <li>Career &amp; lifestyle fit</li>
+              <li>Family planning insight</li>
+              <li>Financial compatibility</li>
+              <li>Retirement &amp; aging plans</li>
+              <li>Legacy &amp; values alignment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- INTERACTION LAYER -->
+      <div class="inter-wrap">
+        <div class="sec-hdr" style="margin-bottom:6px;">Reflective AI Interaction Layer</div>
+        <div class="cards-grid g6">
+          <div class="card">
+            <span class="cico">💬</span>
+            <div class="ctitle">Reflective Dialogue</div>
+            <div class="cdesc">Empathetic, non-judgmental conversations.</div>
+          </div>
+          <div class="card">
+            <span class="cico">💡</span>
+            <div class="ctitle">Insight Explanation</div>
+            <div class="cdesc">Clear, understandable explanations.</div>
+          </div>
+          <div class="card">
+            <span class="cico">📓</span>
+            <div class="ctitle">Guided Self-Reflection</div>
+            <div class="cdesc">Journaling, exercises, structured reflection.</div>
+          </div>
+          <div class="card">
+            <span class="cico">✅</span>
+            <div class="ctitle">Actionable Guidance</div>
+            <div class="cdesc">Personalized recommendations and next steps.</div>
+          </div>
+          <div class="card">
+            <span class="cico">📊</span>
+            <div class="ctitle">Progress Tracking</div>
+            <div class="cdesc">Monitor growth, changes, and improvements.</div>
+          </div>
+          <div class="card">
+            <span class="cico">🆘</span>
+            <div class="ctitle">Crisis Support</div>
+            <div class="cdesc">Immediate support and resource guidance.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- OUTCOME LAYER -->
+      <div class="outcome-wrap">
+        <div class="sec-hdr" style="margin-bottom:6px;">Outcomes &amp; Transformative Impact</div>
+        <div class="outcome-grid">
+          <div class="out-card">
+            <span class="oico">🔍</span>
+            <div class="otitle">Emotional Clarity</div>
+            <div class="odesc">Understand yourself and others better.</div>
+          </div>
+          <div class="out-card">
+            <span class="oico">💞</span>
+            <div class="otitle">Stronger Relationships</div>
+            <div class="odesc">Build healthier, more fulfilling connections.</div>
+          </div>
+          <div class="out-card">
+            <span class="oico">✅</span>
+            <div class="otitle">Informed Decisions</div>
+            <div class="odesc">Make choices with confidence and clarity.</div>
+          </div>
+          <div class="out-card">
+            <span class="oico">🌱</span>
+            <div class="otitle">Healing &amp; Growth</div>
+            <div class="odesc">Heal past wounds and grow stronger.</div>
+          </div>
+          <div class="out-card">
+            <span class="oico">⚖️</span>
+            <div class="otitle">Long-Term Stability</div>
+            <div class="odesc">Build lasting, stable, meaningful relationships.</div>
+          </div>
+          <div class="out-card">
+            <span class="oico">💪</span>
+            <div class="otitle">Personal Empowerment</div>
+            <div class="odesc">Increase self-awareness, confidence, autonomy.</div>
+          </div>
+          <div class="out-card">
+            <span class="oico">🌟</span>
+            <div class="otitle">Better Life Alignment</div>
+            <div class="odesc">Live in alignment with your values and goals.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow">↓</div>
+
+      <!-- FOUNDATION LAYER -->
+      <div class="found-wrap">
+        <div class="sec-hdr" style="margin-bottom:6px;">Cross-Cutting System Capabilities</div>
+        <div class="found-grid">
+          <div class="found-card">
+            <span class="fco">🔒</span>
+            <div class="ftitle">Privacy by Design</div>
+            <div class="fdesc">End-to-end encryption, user data ownership, minimal data collection.</div>
+          </div>
+          <div class="found-card">
+            <span class="fco">🎛</span>
+            <div class="ftitle">Adaptive &amp; Personalised</div>
+            <div class="fdesc">AI adapts to your unique context, needs, and preferences.</div>
+          </div>
+          <div class="found-card">
+            <span class="fco">🎙</span>
+            <div class="ftitle">Multi-Modal Understanding</div>
+            <div class="fdesc">Text, voice, behavior — context integration for deeper understanding.</div>
+          </div>
+          <div class="found-card">
+            <span class="fco">📚</span>
+            <div class="ftitle">Research &amp; Evidence-Based</div>
+            <div class="fdesc">Built on psychological research and best practices.</div>
+          </div>
+          <div class="found-card">
+            <span class="fco">🔎</span>
+            <div class="ftitle">Explainable AI</div>
+            <div class="fdesc">Transparent reasoning, explainable insights and decisions.</div>
+          </div>
+          <div class="found-card">
+            <span class="fco">🔄</span>
+            <div class="ftitle">Continuous Learning</div>
+            <div class="fdesc">Improved insights over time (without compromising privacy).</div>
+          </div>
+          <div class="found-card">
+            <span class="fco">⚖️</span>
+            <div class="ftitle">Ethical AI Framework</div>
+            <div class="fdesc">Aligned with ethical standards and human values.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ETHICS FOOTER -->
+      <div class="ethics">
+        <span class="ehl">ETHICAL FOUNDATION (APPLIES TO ALL LAYERS)</span>
+        <div class="eitem"><span>🤝</span><div><strong>Human Autonomy</strong> — AI supports, you decide.</div></div>
+        <div class="eitem"><span>🧠</span><div><strong>Psychological Safety</strong> — Emotional well-being first.</div></div>
+        <div class="eitem"><span>👁</span><div><strong>Transparency</strong> — Clear explanations, no hidden agendas.</div></div>
+        <div class="eitem"><span>🔐</span><div><strong>Privacy &amp; Data Ownership</strong> — Your data, your control.</div></div>
+        <div class="eitem"><span>🚫</span><div><strong>Non-Manipulation</strong> — No persuasion, no dark patterns.</div></div>
+        <div class="eitem"><span>🤖</span><div><strong>Bounded AI Role</strong> — AI is a tool, not an authority.</div></div>
+        <div class="eitem"><span>✔️</span><div><strong>Ethical Oversight</strong> — Continuous review and improvement.</div></div>
+      </div>
+
+      <div class="note">NOTE: ALMA AI is a conceptual research framework. It does not replace professional psychological, medical, or legal advice. It is not a dating platform, therapy tool, or decision-making authority.</div>
+
+    </div><!-- /center -->
+
+    <!-- RIGHT COLUMN -->
+    <div class="right">
+
+      <div class="right-box integration">
+        <div class="rbox-title">INTEGRATION LAYER (Optional)</div>
+        <div class="ritem">
+          <div class="rico">👩‍⚕️</div>
+          <div>
+            <div class="rtitle">Professional Integration</div>
+            <div class="rdesc">Therapists, counselors, healthcare providers.</div>
+          </div>
+        </div>
+        <div class="ritem">
+          <div class="rico">⌚</div>
+          <div>
+            <div class="rtitle">Wearables &amp; Biometrics</div>
+            <div class="rdesc">Stress, sleep, activity (optional &amp; consented).</div>
+          </div>
+        </div>
+        <div class="ritem">
+          <div class="rico">📅</div>
+          <div>
+            <div class="rtitle">Calendar &amp; Life Context</div>
+            <div class="rdesc">Life events, schedules, important dates.</div>
+          </div>
+        </div>
+        <div class="ritem">
+          <div class="rico">🔧</div>
+          <div>
+            <div class="rtitle">Third-Party Tools</div>
+            <div class="rdesc">Journaling apps, wellness tools (user-controlled).</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-box caps">
+        <div class="rbox-title">EXAMPLES OF AI CAPABILITIES</div>
+        <ul class="bullet-list">
+          <li>Natural Language Understanding</li>
+          <li>Emotional Intelligence Modeling</li>
+          <li>Pattern Recognition</li>
+          <li>Predictive Analytics</li>
+          <li>Scenario Simulation</li>
+          <li>Recommendation Systems</li>
+          <li>Anomaly &amp; Risk Detection</li>
+          <li>Sentiment &amp; Tone Analysis</li>
+          <li>Longitudinal Analysis</li>
+          <li>Knowledge Graph Reasoning</li>
+        </ul>
+      </div>
+
+      <div class="right-box insights">
+        <div class="rbox-title">EXAMPLES OF INSIGHTS</div>
+        <ul class="bullet-list">
+          <li>Hidden incompatibilities</li>
+          <li>Communication breakdown risks</li>
+          <li>Emotional dependency patterns</li>
+          <li>Recurring conflict themes</li>
+          <li>Attachment style dynamics</li>
+          <li>Values and goals misalignment</li>
+          <li>Growth opportunities</li>
+          <li>Relationship strengthening areas</li>
+          <li>Future relationship scenarios</li>
+          <li>Personal growth pathways</li>
+        </ul>
+      </div>
+
+      <div class="right-box data">
+        <div class="rbox-title">DATA FOUNDATION</div>
+        <div class="data-item">
+          <span class="dico">🗄</span>
+          <span class="dtitle">Secure Data Storage</span>
+          <div class="ddesc">Encrypted, private, user-owned.</div>
+        </div>
+        <div class="data-item">
+          <span class="dico">📉</span>
+          <span class="dtitle">Data Minimization</span>
+          <div class="ddesc">Only what is necessary.</div>
+        </div>
+      </div>
+
+    </div><!-- /right -->
+
+  </div><!-- /layout -->
+
+</div><!-- /page -->
+</body>
+</html>
