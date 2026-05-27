@@ -163,8 +163,7 @@ AI designed to support clarity and informed decisions rather than emotional mani
 ## Links
 
 ### Notion
-(https://button-alyssum-638.notion.site/ALMA-AI-Research-Initiative-on-Psychological-Compatibility-Relationship-Dynamics-Full-Concept-31745b82b9708019988ecb95b538ed3d?pvs=74)
-
+(https://button-alyssum-638.notion.site/ALMA-AI-32a45b82b970803984cfd20456a8f252)
 ---
 
 ## Contact
