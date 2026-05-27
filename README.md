@@ -164,27 +164,27 @@ AI designed to support clarity and informed decisions rather than emotional mani
 
 ### Main Research Hub
 ALMA AI  
-https://button-alyssum-638.notion.site/ALMA-AI-31745b82b97080ac995df6d59487d0c
+https://button-alyssum-638.notion.site/ALMA-AI-32a45b82b970803984cfd20456a8f252?pvs=74
 
 ### Research Initiative
 ALMA AI — Research Initiative on Psychological Compatibility & Relationship Dynamics  
-https://button-alyssum-638.notion.site/ALMA-AI-Research-Initiative-on-Psychological-Compatibility-Relationship-Dynamics-Full-Concept-31745b82b9708019988ecb95b538ed3d
+https://button-alyssum-638.notion.site/ALMA-AI-Research-Initiative-on-Psychological-Compatibility-Relationship-Dynamics-Full-Concept-31745b82b9708019988ecb95b538ed3d?pvs=74
 
 ### Architecture v2
 ALMA AI — Architecture v2  
-https://button-alyssum-638.notion.site/ALMA-AI-Architecture-v2-32045b82b9708030b96cd1d8f3c84f5c
+https://button-alyssum-638.notion.site/ALMA-AI-Architecture-v2-36d45b82b97080fbb3a8e90c6c4add5c?pvs=74
 
 ### Operational Architecture v1
 ALMA AI — Operational Architecture v1  
-https://button-alyssum-638.notion.site/ALMA-AI-Operational-Architecture-v1-31745b82b97080b6973ad7c0d9e5e3f8
+https://button-alyssum-638.notion.site/ALMA-AI-Operational-Architecture-v1-36945b82b97080538912e81e708f5a8f?pvs=74
 
 ### Ethical Principles
 ALMA AI — Ethical Principles v1  
-https://button-alyssum-638.notion.site/ALMA-AI-Ethical-Principles-v1-31b45b82b97080b2a89de6dfec7b4892
+(https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/Ethical%20Principles%20v1.pdf)
 
 ### Executive Brief
 ALMA AI — Executive Brief  
-https://button-alyssum-638.notion.site/ALMA-AI-Executive-Brief-31b45b82b9708054b82cfb401a40fcd8
+https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Executive_Brief_v1_1.pdf
 
 ---
 
