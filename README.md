@@ -1,207 +1,122 @@
-# ALMA AI
+# ALMA Research
 
-## Ethical AI Research Initiative on Long-Term Psychological Compatibility
+> Historical research repository for the ALMA AI project.
 
-ALMA AI is an independent conceptual research initiative exploring whether artificial intelligence can help people better understand long-term psychological compatibility before deep emotional attachment forms.
+This repository preserves the early evolution of the ALMA research initiative, including the original concept, executive briefs, architecture drafts, research papers, and supporting documentation.
 
-The project focuses on ethical, reflective, and human-centered approaches to relationship compatibility rather than engagement optimization or behavioral manipulation.
-
----
-
-## Core Direction
-
-ALMA AI explores:
-
-- long-term psychological compatibility
-- reflective self-understanding
-- attachment dynamics
-- emotional patterns
-- relational stability
-- ethical AI interaction models
-
-The system is designed to support clarity and informed decision-making rather than maximizing emotional dependency or user engagement.
+It documents how the project evolved from an initial idea focused on long-term relationship compatibility into a broader evidence-based cognitive architecture for psychological understanding.
 
 ---
 
-## Expanded Functional Architecture
+# Project Evolution
 
-ALMA AI is envisioned not only as a compatibility analysis system, but as a broader ethical relationship support framework designed to help people navigate complex emotional and relational dynamics throughout different stages of life.
+The ALMA initiative has developed through two major stages.
 
-Potential future modules may include:
+## Stage 1 — ALMA Research
 
-### Pre-Attachment Compatibility Analysis
-Deep psychological and emotional compatibility assessment before strong emotional attachment forms.
+Research questions
 
-### Relationship Dynamics Monitoring
-Long-term analysis of communication patterns, attachment shifts, emotional asymmetry, and recurring conflict dynamics inside existing relationships.
+Concept development
 
-### Post-Breakup Psychological Recovery Support
-Reflective AI-guided emotional processing designed to help individuals better understand relationship collapse, attachment pain, emotional dependency patterns, and long-term behavioral cycles after separation.
+Psychological compatibility
 
-### Family and Couple Reflection Support
-AI-assisted structured reflection tools intended to support healthier communication, emotional awareness, and conflict understanding inside long-term partnerships or marriages.
+Ethical AI principles
 
-### Emotional Pattern Recognition
-Identification of recurring emotional behaviors, attachment triggers, self-destructive relational patterns, and compatibility risks across multiple relationships over time.
+Executive documentation
 
-### Ethical Relational Decision Support
-Helping individuals approach major relational decisions with greater long-term psychological awareness rather than impulsive emotional reactivity.
+Early architectural ideas
 
-### Human-Centered AI Interaction Model
-ALMA AI is intentionally designed to avoid:
-- emotional dependency engineering
-- engagement maximization
-- addictive interaction loops
-- manipulative behavioral optimization
-
-The system is conceptually oriented toward clarity, autonomy, psychological insight, and healthier long-term relational outcomes.
+This repository preserves that work as a permanent research archive.
 
 ---
 
-## Potential Long-Term Ecosystem
+## Stage 2 — ALMA Core
 
-ALMA AI may eventually evolve into a broader ecosystem of ethical relational intelligence tools rather than a single compatibility product.
+The active research now continues in the ALMA-Core repository.
 
-Possible future directions include:
+ALMA Core focuses on designing a complete cognitive architecture capable of building continuously evolving psychological representations through evidence-based reasoning, structured knowledge, uncertainty management, and reflective dialogue.
 
-- AI-assisted relationship reflection environments
-- emotionally safe communication mediation systems
-- long-term attachment dynamic analysis
-- pre-relationship psychological risk assessment
-- post-breakup recovery guidance
-- family communication support systems
-- emotionally transparent AI companions with strict ethical constraints
-- relational burnout and emotional dependency detection
-- ethical AI frameworks for future human relationship technologies
+Current work includes:
 
-The broader vision is not to replace human relationships, therapists, or emotional autonomy.
-
-The purpose is to explore whether future AI systems could help reduce preventable emotional harm, improve long-term relational awareness, and support healthier human connection without exploiting emotional vulnerability for engagement or profit.
-
-## Conceptual Principles
-
-ALMA AI is based on several core principles:
-
-- AI should support reflection, not addiction
-- compatibility awareness is more valuable than attraction optimization
-- emotional attachment should not be manipulated
-- ethical boundaries must be explicit and verifiable
-- long-term relational wellbeing matters more than engagement metrics
+- Cognitive Architecture
+- Knowledge Representation
+- Cognitive Objects
+- Evidence-Based Reasoning
+- Cognitive State
+- Prototype Design
 
 ---
 
-## Operational Model
+# Repository Contents
 
-The conceptual operational architecture currently includes:
+This repository contains:
 
-1. Individual psychological analysis  
-2. Reflective dialogue-based profiling  
-3. Compatibility awareness modeling  
-4. Ethical compatibility recommendation logic  
-5. Personal growth and self-reflection feedback
+- Executive Briefs
+- Research Papers
+- Full Concept Documents
+- Early Architecture Drafts
+- Ethical AI Principles
+- Compatibility Research
+- Historical Project Documentation
 
-The system does not publicly expose incompatibility scoring logic in ways that could encourage manipulation or performative behavioral adaptation.
-
----
-
-## Repository Documents
-
-### Executive Brief
-High-level overview of the ALMA AI initiative.
-
-### Operational Architecture
-Structured operational framework and ethical system architecture.
-
-### Full Concept
-Expanded conceptual framework and long-term research direction.
-
-### Ethical Principles
-Ethical Principles v1
+These documents remain available because they describe the origin and evolution of the project.
 
 ---
 
-## Research Position
+# Current Development
 
-ALMA AI is not a dating application.
+Active architectural development has moved to:
 
-It is a conceptual exploration of whether AI systems can support healthier long-term relational decision-making while preserving autonomy, reflection, and ethical transparency.
+## ALMA-Core
 
----
+https://github.com/MaksimNagaevEthicalAI/ALMA-Core
 
-## Why Existing Relationship AI Systems Are Fundamentally Misaligned
-
-Most modern relationship platforms optimize for:
-- engagement
-- retention
-- emotional stimulation
-- addictive interaction loops
-- prolonged platform dependency
-
-Their economic model depends on keeping users emotionally engaged for as long as possible.
-
-As AI becomes more advanced, this creates a serious ethical risk:
-relationship systems may increasingly learn to maximize emotional attachment rather than long-term psychological wellbeing.
-
-ALMA AI explores a fundamentally different direction.
-
-Instead of optimizing for engagement, the concept focuses on:
-- long-term compatibility
-- emotional stability
-- reflective self-understanding
-- healthy attachment dynamics
-- reduction of emotionally destructive relationship patterns
-
-The goal is not to maximize emotional intensity.
-
-The goal is to help people better understand relational compatibility before deep emotional dependency forms.
-
-This creates a different ethical architecture for relationship-oriented AI systems:
-AI designed to support clarity and informed decisions rather than emotional manipulation or behavioral addiction.
-
----
-# ALMA AI
-
-[https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Executive_Framework.png]
-
-## Research Documents
-
-### Main Research Hub
-ALMA AI  
-https://button-alyssum-638.notion.site/ALMA-AI-32a45b82b970803984cfd20456a8f252?pvs=74
-
-### Research Initiative
-ALMA AI — Research Initiative on Psychological Compatibility & Relationship Dynamics  
-https://button-alyssum-638.notion.site/ALMA-AI-Research-Initiative-on-Psychological-Compatibility-Relationship-Dynamics-Full-Concept-31745b82b9708019988ecb95b538ed3d?pvs=74
-
-### Architecture v2
-ALMA AI — Architecture v2  
-https://button-alyssum-638.notion.site/ALMA-AI-Architecture-v2-36d45b82b97080fbb3a8e90c6c4add5c?pvs=74
-
-### Operational Architecture v1
-ALMA AI — Operational Architecture v1  
-https://button-alyssum-638.notion.site/ALMA-AI-Operational-Architecture-v1-36945b82b97080538912e81e708f5a8f?pvs=74
-
-### Ethical Principles
-ALMA AI — Ethical Principles v1  
-(https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/Ethical%20Principles%20v1.pdf)
-
-### Executive Brief
-ALMA AI — Executive Brief  
-https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Executive_Brief_v1_1.pdf
-
-### Full Architecture 
-(https://github.com/MaksimNagaevEthicalAI/Ethical-ai-partner-compatibility/blob/main/ALMA_AI_Full_Architecture.pdf)
+For the latest documentation, architecture, reasoning framework, and prototype design, please visit the ALMA-Core repository.
 
 ---
 
-## Contact
+# Research Philosophy
 
-alma.ai.research@gmail.com
+The original vision remains unchanged.
+
+Artificial intelligence should not merely generate convincing responses.
+
+It should continuously improve its understanding of people through transparent, evidence-based reasoning.
+
+The architecture has evolved.
+
+The mission has not.
 
 ---
 
-## Author
+# Additional Resources
 
-Founded and developed by Maksim Nagaev.
+## Research Website
 
-Independent ethical AI research initiative.
+(https://app.notion.com/p/ALMA-AI-Research-Overview-31745b82b9708019988ecb95b538ed3d)
+
+## Medium
+
+https://medium.com/@EthicalAIforLongTermPartnerCom
+
+## LinkedIn
+
+www.linkedin.com/in/maksim-nagaev-9a03013a8
+
+---
+
+# Author
+
+**Maksim Nagaev**
+
+Founder of ALMA AI
+
+Independent research initiative exploring evidence-based cognitive architecture for long-term psychological understanding.
+
+---
+
+# License
+
+MIT License
+
+This repository is preserved as part of the historical development of the ALMA research project.
