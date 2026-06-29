@@ -1,122 +1,104 @@
 # ALMA Research
 
-> Historical research repository for the ALMA AI project.
+**Research Initiative on Evidence-Based Cognitive Architecture for Long-Term Psychological Understanding**
 
-This repository preserves the early evolution of the ALMA research initiative, including the original concept, executive briefs, architecture drafts, research papers, and supporting documentation.
+ALMA Research is an independent research initiative investigating how artificial intelligence can build cumulative psychological understanding through evidence-based reasoning rather than engagement optimization.
 
-It documents how the project evolved from an initial idea focused on long-term relationship compatibility into a broader evidence-based cognitive architecture for psychological understanding.
-
----
-
-# Project Evolution
-
-The ALMA initiative has developed through two major stages.
-
-## Stage 1 — ALMA Research
-
-Research questions
-
-Concept development
-
-Psychological compatibility
-
-Ethical AI principles
-
-Executive documentation
-
-Early architectural ideas
-
-This repository preserves that work as a permanent research archive.
+The project explores a new class of cognitive architectures designed to model human psychological patterns across multiple conversations while maintaining explicit uncertainty, competing hypotheses, and longitudinal learning.
 
 ---
 
-## Stage 2 — ALMA Core
+## Research Motivation
 
-The active research now continues in the ALMA-Core repository.
+Most conversational AI systems optimize immediate response quality.
 
-ALMA Core focuses on designing a complete cognitive architecture capable of building continuously evolving psychological representations through evidence-based reasoning, structured knowledge, uncertainty management, and reflective dialogue.
+ALMA explores a different research direction.
 
-Current work includes:
+Instead of generating isolated responses, the system incrementally constructs an evolving Cognitive State that represents accumulated psychological understanding across time.
+
+The objective is not prediction or persuasion, but evidence-based cognitive modeling that supports long-term relational understanding.
+
+---
+
+## Research Questions
+
+The project investigates several fundamental questions:
+
+- Can conversational AI accumulate reliable psychological understanding across time?
+- How should uncertainty be represented within a cognitive architecture?
+- Can competing psychological hypotheses coexist until sufficient evidence is collected?
+- What computational architecture best supports longitudinal reasoning?
+- How can AI improve self-understanding without replacing human judgment?
+
+---
+
+## Conceptual Framework
+
+<img width="1885" height="3106" alt="ALMA AI — Cognitive Processing Pipeline" src="https://github.com/user-attachments/assets/94faea34-5b5a-44a3-b917-4c9a8479d8e7" />
+
+
+The ALMA Cognitive Processing Pipeline illustrates how individual conversations are transformed into an evolving Cognitive State through evidence-based reasoning, iterative reflection, and continuous refinement.
+
+---
+
+## Current Research Areas
 
 - Cognitive Architecture
+- Longitudinal Psychological Modeling
 - Knowledge Representation
-- Cognitive Objects
 - Evidence-Based Reasoning
-- Cognitive State
-- Prototype Design
+- Reflection Mechanisms
+- Human-AI Interaction
+- Explainable Cognitive Systems
+- Ethical AI
 
 ---
 
-# Repository Contents
+## Publications
 
-This repository contains:
+Current publications are available through the project website and Notion documentation.
 
-- Executive Briefs
-- Research Papers
-- Full Concept Documents
-- Early Architecture Drafts
-- Ethical AI Principles
-- Compatibility Research
-- Historical Project Documentation
+Future work will include:
 
-These documents remain available because they describe the origin and evolution of the project.
+- Research White Paper
+- DARPA Executive Brief
+- Scientific publications
+- Prototype documentation
 
 ---
 
-# Current Development
+## Prototype
 
-Active architectural development has moved to:
+The current prototype is conceptual.
 
-## ALMA-Core
+Development is focused on validating the cognitive architecture before software implementation.
+
+---
+
+## Related Repository
+
+### ALMA Core
+
+The cognitive architecture documentation is maintained separately:
 
 https://github.com/MaksimNagaevEthicalAI/ALMA-Core
 
-For the latest documentation, architecture, reasoning framework, and prototype design, please visit the ALMA-Core repository.
-
 ---
 
-# Research Philosophy
+## Contact
 
-The original vision remains unchanged.
+**Author**
 
-Artificial intelligence should not merely generate convincing responses.
+Maksim Nagaev
 
-It should continuously improve its understanding of people through transparent, evidence-based reasoning.
+LinkedIn
 
-The architecture has evolved.
+https://www.linkedin.com/in/maksim-nagaev-9a03013a8/
 
-The mission has not.
+Project Website
 
----
+https://button-alyssum-638.notion.site/
 
-# Additional Resources
+Email
 
-## Research Website
-
-(https://app.notion.com/p/ALMA-AI-Research-Overview-31745b82b9708019988ecb95b538ed3d)
-
-## Medium
-
-https://medium.com/@EthicalAIforLongTermPartnerCom
-
-## LinkedIn
-
-www.linkedin.com/in/maksim-nagaev-9a03013a8
-
----
-
-# Author
-
-**Maksim Nagaev**
-
-Founder of ALMA AI
-
-Independent research initiative exploring evidence-based cognitive architecture for long-term psychological understanding.
-
----
-
-# License
-
-MIT License
-
-This repository is preserved as part of the historical development of the ALMA research project.
+alma.ai.research@gmail.com
