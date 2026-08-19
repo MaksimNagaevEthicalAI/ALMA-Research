@@ -510,9 +510,11 @@ The following public demonstrations illustrate ALMA AI's evidence-based reasonin
 
 **Kaggle Dataset**  
 Synthetic dataset demonstrating observations, evidence, hypotheses, confidence, uncertainty, and revision.
+https://www.kaggle.com/datasets/almaairesearch/alma-ai-evidence-based-reasoning-demo-dataset/data?utm_source=chatgpt.com
 
 **Kaggle Notebook**  
 Executable demonstration of the ALMA AI evidence-based reasoning framework using the dataset.
+https://www.kaggle.com/code/almaairesearch/alma-ai-evidence-based-reasoning-demo?utm_source=chatgpt.com
 
 ### Related Repository
 
