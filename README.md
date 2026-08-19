@@ -494,7 +494,7 @@ Current research areas include:
 
 ---
 
-## Publications and Documentation
+## Publications, Research Demonstrations and Documentation
 
 The ALMA Research repository contains the project's research papers, architectural documents, executive materials, concepts, and historical documentation.
 
@@ -504,13 +504,23 @@ For the current product direction, prototype architecture, user journey, levels,
 
 **[ALMA Prototype Vision & Product Architecture](./ALMA_PROTOTYPE_VISION.md)**
 
+### Research Demonstrations
+
+The following public demonstrations illustrate ALMA AI's evidence-based reasoning approach:
+
+**Kaggle Dataset**  
+Synthetic dataset demonstrating observations, evidence, hypotheses, confidence, uncertainty, and revision.
+
+**Kaggle Notebook**  
+Executable demonstration of the ALMA AI evidence-based reasoning framework using the dataset.
+
 ### Related Repository
 
 The engineering implementation of the cognitive architecture is maintained separately:
 
 **[ALMA-Core](https://github.com/MaksimNagaevEthicalAI/ALMA-Core)**
 
-The public website is:
+### Project Website
 
 **https://alma-ai.space/**
 
